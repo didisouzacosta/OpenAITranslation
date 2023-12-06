@@ -1,4 +1,4 @@
-# JSON translation through AI (OpenAI)
+# JSON translation using AI (OpenAI)
 
 Tradução de dados em formato JSON utilizando a API da OpenAI onde enviamos uma estrutura json com os dados em `inglês` e pedimos a tradução dos valores da estrutura para `português`.
 
