@@ -4,7 +4,7 @@ Tradução de dados em formato JSON utilizando a API da OpenAI onde enviamos uma
 
 ## Como funciona?
 
-- Primeiro crie sua conta na OpenAI: https://openai.com/
-- Em seguida crie um token
-- Crie um arquivo `.env` e inclua a key `OPEN_AI_KEY` com o valor do token gerado anteriormente
-- Modifique a linha `92` de acordo com a linguagem que seja necessária
+1. Primeiro crie sua conta na OpenAI: https://openai.com/
+1. Em seguida crie um token
+1. Crie um arquivo `.env` e inclua a key `OPEN_AI_KEY` com o valor do token gerado anteriormente
+1. Modifique a linha `92` de acordo com a linguagem que seja necessária
