@@ -2,7 +2,9 @@ const fs = require('fs')
 const OpenAI = require("openai")
 const ProgressBars = require('@zhangfuxing/multi-progress')
 
-const openai = new OpenAI({ apiKey: process.env.OPEN_AI_KEY })
+require('dotenv').config()
+
+const openai = new OpenAI()
 const workouts = require('./workouts.json')
 const bars = new ProgressBars({
     title: 'Traduções',
